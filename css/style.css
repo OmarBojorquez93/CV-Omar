@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Times New Roman'
+}
+ 
+.container {
+    height: 100vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+    position: relative; 
+    background: white;
+    max-width: 1440px;
+}
+
+.headerFoto {
+    display: flex;
+    justify-content: center;
+    height: 188px; 
+    background: #E6E6E6;
+}
+
+.headerFoto #imgCV {
+    width: 180px;
+}
+
+.headerTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px; 
+    background: #C4C4C4;
+}
+
+#titulo {
+    max-width: 1440px; 
+    color: #005677; 
+    font-size: 3rem; 
+    font-weight: 700; 
+    line-height: 2rem; 
+    word-wrap: break-word;
+}
+
+.separador {
+    display: flex;
+    height: 80px; 
+    background: white;
+}
+
+.headerSeccion {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 40px; 
+    background: #C4C4C4;
+}
+
+.tituloSeccion {
+    max-width: 1440px; 
+    color: #005677; 
+    font-size: 1.5rem; 
+    font-weight: 700; 
+    line-height: 1rem; 
+    word-wrap: break-word;
+}
+
+.contenido {
+    display: flex;
+    background: white;
+}
+
+.contenido ul li {
+    color: black; 
+    font-size: 1rem; 
+    line-height: 1.5rem; 
+}
+
+.cursiva {
+    font-style: italic;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    height: 37px; 
+    background: #005677;
+}
+
+.footer div {
+    color: white; 
+    font-size: 1.5rem; 
+    font-weight: 700; 
+    line-height: 2rem; 
+}
+
+.redesSociales {
+    width: 20px;
+}
