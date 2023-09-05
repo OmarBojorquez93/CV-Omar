@@ -67,6 +67,7 @@
     font-weight: 700; 
     line-height: 1rem; 
     word-wrap: break-word;
+    padding-left: 2rem;
 }
 
 .contenido {
@@ -105,4 +106,19 @@
 
 .redesSociales {
     width: 20px;
+}
+
+.cont-parrafos {
+    max-width: 100%;
+    font-size: 1.5rem;
+    line-height: 1.5rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+}
+
+p {
+    width: 800px;
+    margin: auto;
 }
